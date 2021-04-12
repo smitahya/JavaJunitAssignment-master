@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class MatrixHelixMorph {
 
     public static int[][] helix(int[][] mat){
-        int m = mat.length;
-        int n = mat[0].length;
+        int m = mat.length; // number of rows
+        int n = mat[0].length; // number of columns
         int[][] result = new int[m][n];
         for(int k = 0; k<n; k++){
             result[0][k] = mat[0][k];
